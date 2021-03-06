@@ -1,6 +1,6 @@
 
 name: IBM Cloud Foundry - Xray
-    
+               
 env:
   IBM_CF_API: https://api.eu-gb.cf.cloud.ibm.com
   IBM_CF_APP_MEM: 256M
@@ -24,7 +24,7 @@ jobs:
       V2_UUID: ${{ secrets.V2_UUID }}
       V2_WS_PATH_VMESS: ${{ secrets.V2_WS_PATH_VMESS }}
       V2_WS_PATH_VLESS: ${{ secrets.V2_WS_PATH_VLESS }}
-
+    
     steps:
 
     - name: Install Cloud Foundry CLI
